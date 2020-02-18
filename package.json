@@ -1,0 +1,40 @@
+{
+  "name": "generator-thor-cli",
+  "version": "0.0.0",
+  "description": "Yeoman generator for thor cli.",
+  "homepage": "https://github.com/afeiship/generator-thor-cli",
+  "author": {
+    "name": "afeiship",
+    "email": "1290657123@qq.com",
+    "url": "https://github.com/afeiship"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "yeoman",
+    "yo",
+    "yeoman-generator"
+  ],
+  "devDependencies": {
+    "yeoman-test": "^1.7.0",
+    "yeoman-assert": "^3.1.0",
+    "eslint": "^6.6.0",
+    "prettier": "^1.19.1",
+    "jest": "^24.8.0"
+  },
+  "engines": {
+    "npm": ">= 4.0.0"
+  },
+  "dependencies": {
+    "@feizheng/yeoman-generator-helper": "^1.0.1",
+    "chalk": "^2.1.0",
+    "replace-in-file": "^5.0.2",
+    "yeoman-generator": "^2.0.1",
+    "yeoman-remote": "^1.0.1",
+    "yosay": "^2.0.1"
+  },
+  "repository": "git@github.com:afeiship/generator-thor-cli.git",
+  "license": "MIT"
+}
